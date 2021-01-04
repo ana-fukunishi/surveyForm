@@ -1,0 +1,118 @@
+body{
+background: #000080;
+color: #CCEEFF;
+text-align: center;  
+font-family: Helvetica;
+}
+
+#title{
+font-size: 36px;  
+}
+
+#description{
+  font-size: 20px;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 20%;  
+}
+
+label{
+  font-size: 18px;
+}
+
+p{
+  font-size: 18px;
+}
+
+legend{
+  font-size: 18px;
+}
+
+#survey-form{
+  background: #CCEEFF;
+  color: #000080;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0% 20%;
+  display: grid;
+  align-items: center;
+}
+
+.a{
+  padding: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.b{
+  padding: 3px;
+  text-align: center;
+}
+
+fieldset{
+  border: none;	
+}
+
+
+#survey-form input[type="text"],#survey-form input[type="email"]{
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+}
+
+#survey-form input[type="number"]{
+  width: 60%;
+  height: 30px;
+  font-size: 15px;
+}
+
+#survey-form textarea[type="form-control"]{
+  width: 80%;
+  height: 80px;
+  font-size: 15px;
+} 
+
+#dropdown{
+  width: 30%;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+button{
+  font-size: 18px; 
+  background: #000080;
+  color: #CCEEFF;
+  padding: 4px 8px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+button:hover{
+  Background: #CCEEFF;
+  Color: #000080;
+}
+
+button:active{
+  Background: #ff6600;
+  Color: #000080;
+}
+
+footer{
+  background: #CCEEFF;
+  color: #000080;
+  margin: 5px 20%;
+  padding: 5px 10px;
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  #survey-form{grid-template-columns: 1fr 1fr;}
+  .a{text-align: right; padding: 10px;}
+  .b{text-align: left;}
+  .c{grid-column: 1/3;}
+}

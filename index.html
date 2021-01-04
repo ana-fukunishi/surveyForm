@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<body>
+
+<h1 id="title">Survey Form</h1>
+
+<main>
+
+<p id="description">Help us and receive our news.</p>
+
+<form id="survey-form" action="submit">
+
+<div class="a">
+<label id="name-label">* Name:</label>
+</div>
+
+<div class="b">
+<input type="text" name="name" id="name" placeholder="Enter 
+
+your name" required>
+</div>
+
+<div class="a">
+<label id="email-label">* E-mail:</label> 
+</div>
+
+<div class="b">
+<input type="email" name="e-mail" id="email" 
+
+placeholder="Enter your e-mail" required>
+</div>
+    
+<div class="a">   
+<label id="number-label">Age:</label> 
+</div>
+
+<div class="b">
+<input type="number" name="age" id="number" min="1" 
+
+max="100" placeholder="Enter your Age" required>
+</div>
+  
+<div class="a">
+<label>Gender: </label>
+</div>
+
+<div class="b">
+<select id="dropdown">
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select>
+</div>
+
+
+
+<fieldset class="a">
+<legend>Do you recommend our services?</legend>
+</fieldset>
+
+<fieldset class="b">
+<label><input type="radio" name="yes-maybe-no" value="1"> 
+
+Yes</label><br>
+
+<label><input type="radio" name="yes-maybe-no" value="2"> 
+
+Maybe</label><br>
+
+<label><input type="radio" name="yes-maybe-no" value="3"> 
+
+No</label>
+</fieldset>
+</div>
+
+<fieldset class="a">
+<legend>What do you want to see in our news?</legend>
+</fieldset>
+
+
+<fieldset class="b">
+<label><input type="checkbox" name="Front" value="1" > 
+
+Front-end projects</label><br>
+
+<label><input type="checkbox" name="Back" value="2"> Back-
+
+end projects</label><br>
+
+<label><input type="checkbox" name="Crash" value="3"> Crash 
+
+courses</label>
+</fieldset>
+
+<div class="a">
+<p>Do you have any advice for us?</p>
+</div>
+
+<div class="b">
+<textarea type="form-control" placeholder="Add your 
+
+message"></textarea>
+  </div>
+ 
+<div class="c">   
+<button id="submit" type="submit">Submit</button>
+</div>
+
+</form>
+</main>
+</body>
+</html>
